@@ -1,0 +1,174 @@
+header {
+  height: 100px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.banner1 img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.banner2 img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 500px;
+}
+.menu {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-item a {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+.menu-item a:hover {
+  background-color: #ffd700;
+}
+.menu-item.active a {
+  background-color: #ffd700;
+  color: #fff;
+}
+
+.product-image {
+  width: 100%;
+}
+.product-image > img {
+  width: 100%;
+  object-fit: cover;
+}
+.product-variation {
+  display: flex;
+  margin-bottom: 10px;
+}
+.product-image {
+  width: 100%;
+}
+.product-image > img {
+  object-fit: cover;
+  width: 100%;
+}
+.product-5 {
+  max-width: 19.3%;
+  flex: 0 0 19.3%;
+}
+.titile1 {
+  font-weight: 500px;
+  font-size: 32px;
+}
+.product-name {
+  padding-top: 8px;
+}
+.product-price {
+  padding-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product-price .price-new {
+  font-size: 20px;
+  font-weight: 600;
+}
+.item-variation {
+  width: 20px;
+  height: 20px;
+  /* padding: 0 5px; */
+  background-color: #ffd700;
+  border-radius: 999px;
+}
+
+.btn-center {
+  display: block;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+
+.events {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 12px;
+}
+.events img {
+  width: 100%;
+  object-fit: cover;
+}
+/* .title {
+        width: 100vw;
+        position: relative;
+        height: 95px;
+        background-color: #000;
+        /* align-items: center; */
+/* text-align: center;
+        /* justify-content: center;
+        justify-items: center; */
+/* margin-top: 15px; */
+/* margin-left: calc((100vw - 100%) / -2); */
+/* }  */
+.title {
+  height: 95px;
+  background-color: #000;
+  /* align-items: center; */
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+.title h1 {
+  color: #fff;
+  line-height: 95px;
+  font-weight: 600px;
+  font-size: 46px;
+}
+.posts {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.post img {
+  width: 100%;
+  object-fit: cover;
+}
+/* .title {
+        width: 100vw;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f5f5f5; /* Thêm màu nền nếu cần */
+/* margin-left: calc((100vw - 100%) / -2); Để căn giữa khi trong container */
+
+.post img {
+  padding-bottom: 10px;
+}
+.post-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.post-detail {
+  font-size: 14px;
+  font-weight: 400;
+}
+.posts {
+  padding-bottom: 20px;
+}
+.posts a {
+  text-decoration: none;
+  color: black;
+}

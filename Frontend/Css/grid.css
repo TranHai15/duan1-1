@@ -47,6 +47,14 @@ body {
   margin: 0 auto;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .row {
   display: flex;
 }
